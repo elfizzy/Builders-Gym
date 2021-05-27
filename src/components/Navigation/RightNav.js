@@ -39,6 +39,7 @@ a {
     color: #fff;
     border-bottom: 2px solid rgba(0, 0, 0, 0.3);
     font-size: 15px;
+   
   }
 
 }

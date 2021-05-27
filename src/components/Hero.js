@@ -2,7 +2,7 @@ import React, {useEffect, useState, useRef} from 'react';
 import styled, {css} from "styled-components/macro";
 // import {IoMdArrowRoundFoward, } from "react-icons/io";
 import {IoArrowForward, IoArrowBack} from "react-icons/io5";
-
+// import Button from './Button';
 
 const Sliders = styled.section`
 height : 100vh;
@@ -66,6 +66,8 @@ max-width: 1600px;
 margin-top: 400px;
 width: calc(100% - 100px);
 color: #fff
+
+
 `
 
 
@@ -137,6 +139,9 @@ const Hero = ({slides}) => {
   return (
     <Sliders>
       <Wrapper>
+        <SlideButtons>
+        <PrevArrow onClick={prevSlide} />
+        </SlideButtons>
         {slides.map((slide, index) => 
        
               (          
@@ -145,9 +150,12 @@ const Hero = ({slides}) => {
                 <HeroSlider>
                 <HeroImage src={slide.image} alt="img" />
                   <HeroContent>
-                    <h1>{slide.imgName}</h1>
-                    <p>{slide.details}</p>
+                    <h2 style= {{fontSize:"3rem", textAlign:"center", color:"##D4F1F4"}}>{slide.imgName}</h2>
+                    <p style= {{fontSize:"1.5rem", textAlign:"center"}}>{slide.details}</p>
                   </HeroContent>
+                  {/* <Button>
+                      {slide.Button}
+                    </Button> */}
               </HeroSlider>
                 )}
                 
@@ -156,10 +164,7 @@ const Hero = ({slides}) => {
         )}
 
         <SlideButtons>
-          <PrevArrow onClick={prevSlide} />
-
           <NextArrow onClick={nextSlide}/>
-
         </SlideButtons>
       </Wrapper>
       
