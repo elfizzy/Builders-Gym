@@ -1,5 +1,4 @@
 import React from 'react';
-import workOut from "../images/workout.mp4"
 import poster from "../images/six.webp";
 
  const Video = () => {
