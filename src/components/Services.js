@@ -6,13 +6,13 @@ const Services = () => {
     <>
     <section id="services">
       <div className="content">
-      <h1>Services We Offer</h1>
+      <h1 style={{color:"white"}}>Services We Offer</h1>
       <div className="container">
 
         <div className="box">
           <i className="fa fa-laptop"></i>
           <h3>State of the Art Equiqments</h3>
-          <p>With our modern and state of the are equipment, you get nothing but the best 
+          <p>With our modern and state of the art equipment, you get nothing but the best 
             experience in our gym house because availability of equipment is top priority for us.</p>
             {/* <a href="#"><button>View Gallery</button></a> */}
              {/* <Button primary='true'>
@@ -53,5 +53,6 @@ const Services = () => {
     </>
   )
 }
+
 
 export default Services;

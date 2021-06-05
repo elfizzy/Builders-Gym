@@ -159,18 +159,20 @@ button {
 }
 
 #services h3, #projects h3{
-  color: rgb(245, 166, 69);
+  /* color: rgb(245, 166, 69); */
   /* color: rgb(172, 132, 83); */
+  color: white;
   font-size: 25px;
   font-weight: bolder;
   text-align: center;
   font-family: fantasy;
 }
 
-#services p {
+.box2 p, .box p {
   line-height: 20px;
   color: whitesmoke;
   font-size: large;
+  padding-top: 8px;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
@@ -179,16 +181,13 @@ h1 {
   font-size: 50px;
   font-variant: small-caps;
   letter-spacing: 3px;
-  color: #f0d0c3;
+  color: rgb(119, 116, 109);;
+  /* color: #f0d0c3; */
 }
 .box, .box2 {  
   box-shadow:0 4px 10px 0 whitesmoke;
   background: rgb(119, 119, 119);
   
-}
-
-.box2 p {
-  padding-top: 8px;
 }
 
 .vid {
