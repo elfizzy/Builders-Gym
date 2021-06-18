@@ -6,6 +6,8 @@ import Services from "./components/Services";
 import About from "./components/AboutUs";
 import Video from "./components/Video";
 import GymPlan from "./components/GymPlans";
+import Team from "./components/Team";
+import Gallery from "./components/Gallery";
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
     <Services/>
     <Video/>
     <GymPlan/>
+    <Team/>
+    <Gallery/>
     </>
   );
 }

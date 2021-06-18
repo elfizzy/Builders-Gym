@@ -191,7 +191,7 @@ h1 {
 }
 
 .vid {
-  border: 1px solid salmon;
+  border: 1px solid rgb(119, 116, 109) ;
   margin: 20px 0 20px 20%;
 
 }
@@ -199,4 +199,94 @@ h1 {
 #plans {
   width: 100%;
   height: 100vh;
+}
+.imgSlide {
+  display: block;
+  width: 100%;
+  height: 50vh;
+  overflow: hidden;
+  position: relative;
+  margin-top: 10px;
+  background: rgb(119, 119, 119);
+}
+.slide {
+  
+}
+
+
+
+.card-wrapper {
+  position: relative;
+  width: 100%;
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+
+.card-wrapper:active, .card-wrapper:hover, .card-wrapper:focus {
+  outline: none;
+  border: none;
+}
+.card {
+  width: 100%;
+  height: 450px;
+  border-radius: 16px;
+  overflow: hidden;
+  cursor: pointer;
+  position: relative;
+  /* .card-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    background-color: #000;
+    transition: 5s;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }//card-image
+  &:hover {
+    img {
+      opacity: .4;
+      transition: 5s;
+    }
+    .card-image {
+      transform:translateY(-100px);
+      transition: all .9s;
+    }
+  } */
+}
+
+.gallery {
+  width: 100%;
+  margin: 80px auto;
+}
+
+.galleryContent {
+  max-width:90%;
+  margin: 30px auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.galleryContent .contain {
+  max-width: 600px;
+  margin-right: 10px;
+}
+
+.contain img {
+  max-width: 300px;
+  margin: 10px auto;
+  height:250px;
+}
+
+footer{
+  text-align: center;
+  font-size: 15px;
+  padding: 10px 5px;
+  background-color: rgb(46, 103, 122);
+  color: white;
 }

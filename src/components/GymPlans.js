@@ -15,7 +15,7 @@ import React from 'react'
           <p>3 classes per week</p>
           <p>3 Months membership</p>
           <p>Free drink package</p>
-          <p>1 personal trainer</p>
+          <p>1 Personal trainer</p>
           <button style={{width:"150px", height:"40px", margin:"10px"}}>Select Plan</button>
         </div>
 
@@ -29,7 +29,7 @@ import React from 'react'
           <p>4 classes per week</p>
           <p>6 Months membership</p>
           <p>Free drink package</p>
-          <p>3 personal trainer</p>
+          <p>3 Personal trainer</p>
           <button style={{width:"150px", height:"40px", margin:"10px"}}>Select Plan</button>
         </div>
 
@@ -42,7 +42,7 @@ import React from 'react'
             <p>5 classes per week</p>
             <p>9 Months membership</p>
             <p>Free drink package</p>
-            <p>7 personal trainer</p>
+            <p>7 Personal trainer</p>
             <button style={{width:"150px", height:"40px", margin:"10px"}}>Select Plan</button>
           </div>
 
