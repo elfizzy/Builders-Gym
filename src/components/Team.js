@@ -19,6 +19,7 @@ import trainer2 from "../images/team-3.jpg";
   }
   return (
     <>
+    <div className="instructors">
     <h3>Meet Our Experienced Trainers</h3>
     <section className="imgSlide">
       
@@ -110,6 +111,9 @@ import trainer2 from "../images/team-3.jpg";
         
       </Slider>
     </section>
+
+    </div>
+    
     </>
   )
 }

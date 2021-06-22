@@ -51,7 +51,7 @@ import pic5 from "../images/image3.webp";
       
 
 </div>
-<footer>Copyright 2021 | Dcypher-Tech </footer>
+<footer>Copyright 2021 | Abdulhafiz </footer>
 {/* <FaRegCopyright/>  */}
 
     </>

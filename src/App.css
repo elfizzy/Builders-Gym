@@ -197,6 +197,7 @@ h1 {
 }
 
 #plans {
+  margin-top: 15px;
   width: 100%;
   height: 100vh;
 }
@@ -206,7 +207,7 @@ h1 {
   height: 50vh;
   overflow: hidden;
   position: relative;
-  margin-top: 10px;
+  margin-top: 5px;
   background: rgb(119, 119, 119);
 }
 .slide {
@@ -262,7 +263,7 @@ h1 {
 
 .gallery {
   width: 100%;
-  margin: 80px auto;
+  margin: 20px auto;
 }
 
 .galleryContent {
@@ -286,7 +287,8 @@ h1 {
 footer{
   text-align: center;
   font-size: 15px;
-  padding: 10px 5px;
+  padding: 15px 5px;
   background-color: rgb(46, 103, 122);
   color: white;
+  margin-top: 0;
 }

@@ -49,11 +49,16 @@ const RightNav = ({open}) => {
   return (
     <UL open={open}>
         {/* <li><Link to="home" spy={true} smooth={true}>Home</Link></li> */}
+        <li><Link to="aboutUs" spy={true} smooth={true}>About Us</Link></li>
         <li><Link to="services" spy={true} smooth={true}>Services</Link></li>
-        <li><Link to="gbout us" spy={true} smooth={true}>About Us</Link></li>
         <li><Link to="gym" spy={true} smooth={true}>D-Gym</Link></li>
         <li><Link to="instructors" spy={true} smooth={true}>Instructors</Link></li>
-        <li><Link to="contact" spy={true} smooth={true}>Contact</Link></li>
+        <li><Link to="contact" spy={true} smooth={true}>Gallery</Link></li>
+        <li><Link to="#" spy={true} smooth={true}>Log In</Link></li>
+        <li><Link to="#" spy={true} smooth={true}>Sign Up</Link></li>
+
+        
+
         
       </UL>
   )

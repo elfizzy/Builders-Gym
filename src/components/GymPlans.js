@@ -3,7 +3,7 @@ import React from 'react'
  const GymPlans = () => {
   return (
     <>
-      <section id="plans">
+    <section id="plans">
       <h1> Membership Plans</h1>
       <div className="container">
           {/* <Slider> */}
@@ -57,7 +57,5 @@ import React from 'react'
 const price = {
   color:"white"
 }
-
-
 
 export default GymPlans;
